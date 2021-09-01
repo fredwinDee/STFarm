@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Stone Terrace Farm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Stone Terrace Farm</h1>
+    <form action="/signup">
+        <div>
+            <label for="fname">First Name</label>
+            <!-- name is the value passed in this param if selected-->
+            <input type="text" name="FirstName" id="fname" required>
+            <label for="lname">Last Name</label>
+            <input type="text" name="LastName" id="lname" required>
+        </div>
+        <p></p>
+        <label for="gardenertype">Interest level:</label>
+        <!--    the name groups the radio buttons-->
+        <p>
+            <!--    value specifies what gets sent in the action for selecting this radio button-->
+        <div><input type="radio" name="gardenertype" id="beginG" value="beginner" required>
+            <label for="bg">Beginner</label>
+        </div>
+        <div><input type="radio" name="gardenertype" id="avidG" value="avid">
+            <label for="ag">Avid gardener</label>
+        </div>
+        <div><input type="radio" name="gardenertype" id="homestead" value="homestead">
+            <label for="homestead">Homesteader</label>
+        </div>
+        <div><input type="radio" name="gardenertype" id="farmer" value="farmer">
+            <label for="farmer">Farmer</label>
+        </div>
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" required>
+            <label for="password">Password:</label>
+            <input id="password" type="password" name="password" required>
+        </p>
+
+        <p>
+            <label for="age">Select Age Group</label>
+            <select name="ageG" id="age">
+                <option value="u18">under 18</option>
+                <option value="18_30" selected>18-30</option>
+                <option value="31_50">31-50</option>
+                <option selected value="51plus">51 and over </option>
+            </select>
+        </p>
+        <p>
+            <button>Register!</button>
+        </p>
+
+    </form>
+</body>
+
+</html>

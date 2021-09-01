@@ -1,0 +1,16 @@
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: monospace;
+    font-weight: 100;
+    font-size: 40px;
+    letter-spacing: 20px;
+    text-decoration: plum wavy underline;
+}
+h2 {
+    color: indianred;
+    background-color: lightgreen;
+}
+button{
+    background-color: lightcoral;
+}
