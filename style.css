@@ -4,13 +4,24 @@ h1{
     font-family: monospace;
     font-weight: 100;
     font-size: 40px;
-    letter-spacing: 20px;
-    text-decoration: plum wavy underline;
+    letter-spacing: 10px;
+
+}
+.construction {
+    font-size: 20px;
+    text-align: center;
+    color: red;
+}
 }
 h2 {
-    color: indianred;
-    background-color: lightgreen;
+text-align: center;
 }
+
+.fit-picture {
+    width: 300px;
+}
+
 button{
     background-color: lightcoral;
 }
+
