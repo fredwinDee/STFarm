@@ -78,7 +78,7 @@ h3 {
 }
 
 .main-picture{
-    width: 200px;
+    width: 300px;
     /* height: 300px; */
     /* margin-left: 50px; */
     border: 1px solid black;
@@ -89,13 +89,17 @@ img{
     max-width: 100%; /* of owner?*/
     /* align-items: center; */
 }
+.bigpicture {
+    width: 500px;
+    margin: 20px;
+    border: 1px, solid, black;
+ }
 
 .fit-picture {
     width: 300px;
     margin: 20px;
     border: 1px, solid, black;
- 
-}
+ }
 
 button{
     background-color: lightcoral;
