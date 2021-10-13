@@ -67,6 +67,9 @@ h3 {
     grid-gap: 15px;
     align-items: center;
 }
+li{
+    margin-bottom: 15px;
+}
 
 .farmexplore{
     width: 300px;
@@ -132,5 +135,11 @@ figcaption {
     margin-bottom: 50px;
     margin-left: 50px;
     display: inline-block;
+}
+.divider{
+    height: 20px;
+    margin-top: 30px;
+    /* color: rgb(3, 56, 10); */
+    background-color: rgb(3, 56, 10);
 }
 
