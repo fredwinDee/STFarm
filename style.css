@@ -1,4 +1,8 @@
 
+html {
+    scroll-padding-top: 6rem;
+  }
+
 header{
     /* width:1200px; */
     text-align: center;
@@ -7,16 +11,18 @@ header{
 
     border: 6px, blue;
     border-style: solid;
-
+    position: sticky;
+    top: 0;
 }
 header.page-header {
     background: no-repeat left/cover url('pictures/terrace.jpg' );
     display: flex;
-    height: 120px;
+    height: 5rem;
     min-width: 120px;
     align-items: center;
     color: #fff;
     text-shadow: #000 0 0 .2em;
+    
 }
 
 p{
@@ -26,13 +32,19 @@ p{
  font-size: 1.2em;
  color: rgb(3, 56, 10);
 }
+
 .homenav{
     display: inline;
     color:white;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-weight: 100;
+    font-size: large;
     margin-right: 20%;
     padding: 10px;
 
 }
+
 h1{
     display: inline;
     color:white;
@@ -44,22 +56,29 @@ h1{
     letter-spacing: 10px;
 
 }
+
 h2 {
     text-transform: uppercase;
     text-align: center;
     font-family: monospace;
 }
+
 h3 {
    
     text-align: center;
     /* font-family: monospace; */
 }
+
 .construction {
     font-size: 20px;
     text-align: center;
     color: red;
 }
 
+abbr{
+    font-style: italic;
+    font-weight: 100;
+}
 
 .farmmenu{
     display: grid;

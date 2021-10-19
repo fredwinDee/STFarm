@@ -9,16 +9,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<!-- tried using iframe but it displays like it is including a new page in the dimensions
-    <iframe src="header.html" frameborder="0" width="100%"></iframe> -->
-
-<!-- Header currently included in every page HTML, presumably JavaScript will simplify this-->
-<header class="page-header">
-    <a href="index.html" class="homenav">Home</a>
-    <h1>Stone Terrace Farm</h1>
-</header>
 
 <body>
+
+    <!-- tried using iframe for heder but it displays like it is including a new page in the dimensions
+    <iframe src="header.html" frameborder="0" width="100%"></iframe> -->
+
+    <!-- Header currently included in every page HTML, presumably JavaScript will simplify this-->
+    <header class="page-header">
+        <a href="index.html" class="homenav">Home</a>
+        <h1>Stone Terrace Farm</h1>
+    </header>
 
     <form action="/signup">
         <div>
@@ -79,7 +80,7 @@
             </div>
         </div>
 
-        <div class="divider"></div>
+        <div class="divider" id="thebigpicture"></div>
 
         <div class="bigpicture">
             <h2>The Big Picture</h2>
@@ -87,10 +88,10 @@
             <figcaption>The big picture plan courtesy of Maryland's Department of Natural Resources</figcaption>
         </div>
 
-        <div class="divider"></div>
+        <div class="divider" id="Solarplan"></div>
 
         <div>
-            <h3 id="Solarplan">The Solar Plan</h3>
+            <h3>The Solar Plan</h3>
             <p>We use all the power generated from our 7.5kW photovoltaic panel array for HVAC, which includes high
                 efficiency heat pumps, and household
                 lighting and appliances. Propane is currently used for backup winter heat, hot water, and the kitchen
