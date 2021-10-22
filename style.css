@@ -4,20 +4,20 @@ html {
   }
 
 header{
-    /* width:1200px; */
     text-align: center;
     background-image: url('pictures/terrace.jpg') ;
     background-color: black;
 
-    border: 6px, blue;
+    border: 2px rgb(3, 56, 10);
     border-style: solid;
     position: sticky;
     top: 0;
 }
+
 header.page-header {
     background: no-repeat left/cover url('pictures/terrace.jpg' );
     display: flex;
-    height: 5rem;
+    height: 4rem;
     min-width: 120px;
     align-items: center;
     color: #fff;
@@ -28,9 +28,8 @@ header.page-header {
 p{
     margin: 10px 0;
     padding: 5px;
-    /* border: 1px solid #999; */
- font-size: 1.2em;
- color: rgb(3, 56, 10);
+    font-size: 1.2em;
+    color: rgb(3, 56, 10);
 }
 
 .homenav{
@@ -54,7 +53,6 @@ h1{
     font-weight: 100;
     font-size: 40px;
     letter-spacing: 10px;
-
 }
 
 h2 {
@@ -64,9 +62,9 @@ h2 {
 }
 
 h3 {
-   
     text-align: center;
-    /* font-family: monospace; */
+    font-family: monospace;
+    font-size: x-large;
 }
 
 .construction {
@@ -86,6 +84,7 @@ abbr{
     grid-gap: 15px;
     align-items: center;
 }
+
 li{
     margin-bottom: 15px;
 }
@@ -107,20 +106,28 @@ li{
     border-radius: 5px;
     display: inline-block;
 }
+
 img{
-    max-width: 100%; /* of owner?*/
-    /* align-items: center; */
-}
+    max-width: 100%; /*of owner?*/
+  }
+
 .bigpicture {
     width: 500px;
-    margin: 20px;
-    border: 1px, solid, black;
+    /* margin: 20px; */
+    /* border: 1px, solid, black; */
+    margin: auto;
  }
 
 .fit-picture {
     width: 300px;
+    /* margin: auto; */
     margin: 20px;
-    border: 1px, solid, black;
+    /* border: 1px, solid, black; */
+ }
+
+ .housingpix{
+    width: 400px;
+    margin: auto;
  }
 
 button{
@@ -137,11 +144,32 @@ button{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: 1s;
 }
+
+.gallery__img:hover {
+    /* text.png says "click to see more" but click operates on this hover chnage */
+    /* content: url(pictures/text.png); */
+    /* content: url(pictures/pentas.jpg);  */
+}
+    
+     
+
+.gallery__img:active {
+    /* transform-origin: 0 0; */
+    transform: rotate3d(0, 0.5, 0, 180deg);
+    /* display: block; */
+    /* content: "This is info on the black swallowtail"; */
+}
+
 
 figcaption {
     color:blue;
     text-align: center;
+}
+
+.bedexample{
+    margin:auto
 }
 
 .card {
@@ -155,8 +183,9 @@ figcaption {
     margin-left: 50px;
     display: inline-block;
 }
+
 .divider{
-    height: 20px;
+    height: 10px;
     margin-top: 30px;
     /* color: rgb(3, 56, 10); */
     background-color: rgb(3, 56, 10);
