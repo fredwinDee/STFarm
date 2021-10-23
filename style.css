@@ -108,7 +108,8 @@ li{
 }
 
 img{
-    max-width: 100%; /*of owner?*/
+    /* max-width: 100%; of owner? */
+   width: 400px;
   }
 
 .bigpicture {
@@ -120,15 +121,20 @@ img{
 
 .fit-picture {
     width: 300px;
-    /* margin: auto; */
     margin: 20px;
+      /* margin: auto; */
     /* border: 1px, solid, black; */
  }
-
- .housingpix{
-    width: 400px;
-    margin: auto;
+ .pano-picture{
+     width:600px;
  }
+
+ .centeredpix {
+    /* width: 400px; */
+    text-align: center;
+    margin: auto;
+}
+ 
 
 button{
     background-color: lightcoral;
@@ -147,13 +153,7 @@ button{
     transition: 1s;
 }
 
-.gallery__img:hover {
-    /* text.png says "click to see more" but click operates on this hover chnage */
-    /* content: url(pictures/text.png); */
-    /* content: url(pictures/pentas.jpg);  */
-}
     
-     
 
 .gallery__img:active {
     /* transform-origin: 0 0; */
@@ -174,7 +174,6 @@ figcaption {
 
 .card {
     width: 210px;
-    /* height: 250px; */
     border: 1px solid black;
     border-radius: 5px;
     text-align: center;
@@ -182,6 +181,9 @@ figcaption {
     margin-bottom: 50px;
     margin-left: 50px;
     display: inline-block;
+}
+.card img{
+    max-width: 100%;
 }
 
 .divider{
