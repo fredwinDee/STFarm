@@ -100,11 +100,12 @@ li{
 
 .main-picture{
     width: 300px;
-    /* height: 300px; */
-    /* margin-left: 50px; */
     border: 1px solid black;
     border-radius: 5px;
     display: inline-block;
+}
+.main-picture img{
+    width: 300px;
 }
 
 img{
@@ -113,17 +114,18 @@ img{
   }
 
 .bigpicture {
-    width: 500px;
-    /* margin: 20px; */
-    /* border: 1px, solid, black; */
+   
+    text-align: center;
     margin: auto;
+ }
+ .bigpicture img {
+ width: 600px;
  }
 
 .fit-picture {
     width: 300px;
     margin: 20px;
-      /* margin: auto; */
-    /* border: 1px, solid, black; */
+    
  }
  .pano-picture{
      width:600px;
