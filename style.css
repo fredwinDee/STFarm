@@ -67,6 +67,11 @@ h3 {
     font-size: x-large;
 }
 
+#mail{
+    font-family: monospace;
+    font-size: 1.3em;
+    font-weight: bold;
+}
 .construction {
     font-size: 20px;
     text-align: center;
