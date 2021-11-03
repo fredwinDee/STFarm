@@ -67,7 +67,7 @@ h3 {
     font-size: x-large;
 }
 
-#mail{
+#links{
     font-family: monospace;
     font-size: 1.3em;
     font-weight: bold;
@@ -200,3 +200,16 @@ figcaption {
     background-color: rgb(3, 56, 10);
 }
 
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+aside > p {
+    margin: .5rem;
+}
