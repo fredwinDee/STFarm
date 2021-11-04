@@ -66,6 +66,10 @@ h3 {
     font-family: monospace;
     font-size: x-large;
 }
+h4 {
+    font-family: monospace;
+    font-size: large;
+}
 
 #links{
     font-family: monospace;
@@ -134,12 +138,20 @@ img{
  }
  .pano-picture{
      width:600px;
+     text-align: center;
+    margin: auto;
+    
+    border: 2px solid black;
+    padding: 2px;
  }
 
- .centeredpix {
-    /* width: 400px; */
+ div.centeredpix {
+    width: 400px;
     text-align: center;
     margin: auto;
+    
+    border: 2px solid black;
+    padding: 2px;
 }
  
 
