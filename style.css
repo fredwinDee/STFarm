@@ -127,11 +127,13 @@ img{
    width: 400px;
   }
 
+
 .bigpicture {
    
     text-align: center;
     margin: auto;
  }
+
  .bigpicture img {
  width: 600px;
  }
@@ -159,6 +161,19 @@ img{
     padding: 2px;
 }
  
+.smallimg{
+    width: 300px;
+    height: 300px;
+    /* width: 300px; */
+    object-fit: cover;
+   }
+
+div.smallcenteredpix {
+    text-align: center;
+    /* margin: auto; */
+    /* border: 2px solid black; */
+    /* padding: 2px; */
+}
 
 button{
     background-color: lightcoral;
@@ -168,6 +183,13 @@ button{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 25vw);
+    grid-gap: 15px;
+}
+
+.gallery_test {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 25vw);
     grid-gap: 15px;
 }
 
@@ -219,7 +241,7 @@ figcaption {
 }
 
 aside {
-    width: 40%;
+    width: 30%;
     padding-left: .5rem;
     margin-left: .5rem;
     float: right;
