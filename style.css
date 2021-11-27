@@ -134,14 +134,13 @@ li{
 }
 
 img{
-    /* max-width: 100%; of owner? */
-   width: 400px;
+    max-width: 100%; of owner?
+   /* width: 400px; */
   }
 
 
 .bigpicture {
-   
-    text-align: center;
+     text-align: center;
     margin: auto;
  }
 
@@ -162,6 +161,7 @@ img{
     border: 2px solid black;
     padding: 2px;
  }
+ .centertext{text-align: center;}
 
  div.centeredpix {
     width: 400px;
@@ -268,7 +268,7 @@ aside > p {
     font-size: 1.0rem;
 }
 
-.coldframe{
+.rowofpix{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
