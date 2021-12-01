@@ -32,9 +32,6 @@ div.chixpix {
    
     min-width: 120px;
     align-items: center;
-    
- 
-    
 }
 
 p{
@@ -63,8 +60,20 @@ h1{
     text-align: center;
     font-family: monospace;
     font-weight: 100;
-    font-size: 40px;
+    font-size: 3.5em;
+    /* font-size: 40px; */
     letter-spacing: 10px;
+}
+
+@media (max-width: 900px) {
+    h1 {
+        font-size: 2.5em;
+    }
+}
+@media (max-width: 576px) {
+    h1 {
+        font-size: 2em;
+    }
 }
 
 h2 {
@@ -88,7 +97,7 @@ h4 {
 
 #links{
     font-family: monospace;
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: bold;
 }
 
@@ -114,13 +123,13 @@ li{
     margin-bottom: 15px;
 }
 
-.farmexplore{
-    width: 300px;
-    font-size: larger;
+.tocbox{
+    width: 400px;
+    /* font-size: larger; */
     /* border: 8px, blue; */
     border-style: solid;
     display: inline-block;
-    margin-left: 200px;
+    /* margin-left: 200px; */
 }
 
 .main-picture{
@@ -272,4 +281,13 @@ aside > p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.forestinfo {
+    /* font-size: 1em; */
+    display: flex;
+    justify-content:space-between;
+}
+.forestnav {
+    width: 400px;
 }
