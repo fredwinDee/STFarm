@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Garden</title>
     <link rel="stylesheet" href="style.css">
+    <!-- <script language="javascript" type="text/javascript" src="path/to/p5.dom.js"> -->
+    <!-- </script> -->
 </head>
 
 <header class="page-header">
@@ -15,6 +17,8 @@
 </header>
 
 <body>
+    <a name="top"></a>
+
     <h2>What we grow</h2>
     <p>Edible landscaping is used to a significant extent, incorporating Blackberry, Grape, Kiwi, Goji berry, Paw paw,
         Walnuts,
@@ -24,11 +28,14 @@
     <p>We also cultivate a more traditional food garden, again with stone terraced raised beds where we grow a more
         typical mix of vegetables and fruits with some companion flowers and herbs mixed in.</p>
 
+
     <p>Herbs also have their own small garden, closest to the kitchen.</p>
 
     <p>Fall 2021: We have started a special project. <a href="#specialprojects"> Check it out!</a></p>
 
+
     <div class="divider"></div>
+
     <p></p>
     <div class="centeredpix">
         <p>The bird's eye view of the food garden.</p>
@@ -75,15 +82,16 @@
 
     <div class="gallery">
         <figure>
-            <img src="pictures/strawbs.jpg" class="gallery__img" alt="Strawberries">
+            <img src="pictures/strawbs.jpg" class="gallery__img" alt="Strawberries" id="img1"
+                onclick="enlargeImg('img1')">
             <figcaption>Strawberries</figcaption>
         </figure>
         <figure>
-            <img src="pictures/produce1.jpg" class="gallery__img" alt="Image 2">
+            <img src="pictures/produce1.jpg" class="gallery__img" alt="Image 2" id="img2" onclick="enlargeImg('img2')">
             <figcaption>Sweet Aroma, Kentucky Wonder, California Wonder Pepper, Butta Zuchinni</figcaption>
         </figure>
         <figure>
-            <img src="pictures/produce2.jpg" class="gallery__img" alt="Image 3">
+            <img src="pictures/produce2.jpg" class="gallery__img" alt="Image 3" id="img3" onclick="enlargeImg('img3')">
             <figcaption>Detroit beets, Atomic Red Carrots, Sugar Snap Peas</figcaption>
         </figure>
         <figure>
@@ -135,6 +143,7 @@
             <figcaption>Flowers bordering the Asparagus 'Purple Passion'</figcaption>
         </figure>
     </div>
+    <a href="#top">Back to top</a>
 
     <div class="divider"></div>
 
@@ -198,7 +207,7 @@
             <img src="pictures/coldframe2_low.jpg" alt="Spring coldframe">
         </div>
     </div>
-
+    <a href="#top">Back to top</a>
 
     <div class="divider"></div>
 
@@ -223,7 +232,25 @@
         <p>Our goal is to produce at least $1000 net profit to donate to GHG, with 25% going to a local food pantry.
             Thinking and acting locally and globally.
         </p>
+
+        <script src="jscode.js" type="text/javascript"></script>
+
+        <span id="hideiframe" onclick="DoHideIFRAME('hideiframe','iframetoggle','showiframe');">
+            [Hide Pre-Order Form]
+        </span>
+        <span id="showiframe" onclick="DoShowIFRAME('showiframe','hideiframe','iframetoggle');">
+            [Show Pre-Order Form]
+        </span>
+        <div id="iframetoggle" align="center" style="display: none;">
+            <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSejJHDCefme9eZJUc_UAYJf8PCCH5FH4wzYsJWskenBNMMD8A/viewform?embedded=true"
+                width="800" height="1604" frameborder="0" marginheight="0" marginwidth="0"
+                onload="window.parent.scrollTo(0,0)">Loading…</iframe>
+        </div>
+
+        <p></p>
     </div>
+    <a href="#top">Back to top</a>
 </body>
 
 </html>

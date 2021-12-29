@@ -76,6 +76,7 @@ h1{
     }
 }
 
+
 h2 {
     text-transform: uppercase;
     text-align: center;
@@ -206,7 +207,7 @@ button{
     grid-gap: 15px;
 }
 
-.gallery_test {
+.gallery_2up {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 25vw);
@@ -290,4 +291,25 @@ aside > p {
 }
 .forestnav {
     width: 400px;
+}
+
+#showiframe{
+    cursor:pointer;
+    line-height: 16px; 
+    font-size: 14px; 
+    font-weight: bold; 
+    font-family: sans-serif; 
+    color: brown; 
+    background-color: gold;
+}
+
+#hideiframe{
+    /* display: none; */
+    cursor:pointer;
+    line-height: 16px; 
+    font-size: 14px; 
+    font-weight: bold; 
+    font-family: sans-serif; 
+    color: gold; 
+    background-color: brown;
 }
