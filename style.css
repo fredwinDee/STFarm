@@ -19,7 +19,7 @@ header{
 header.page-header {
     background: no-repeat left/cover url('pictures/terrace.jpg' );
     display: flex;
-    height: 4rem;
+    height: 5.5rem;
     min-width: 120px;
     align-items: center;
     color: #fff;
